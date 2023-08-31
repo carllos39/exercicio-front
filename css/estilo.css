@@ -1,0 +1,45 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 10px;
+    background-color: black;
+
+    text-align: center;
+}
+
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   background-image: url(../imagens/fundo01.jpg);
+   padding: 5px;
+}
+
+h2{
+    font-size: 20px;
+    border-bottom: solid 5px;
+}
+p a{
+
+    font-weight: bold;
+    background-color:azure;
+    display: inline-block;
+}
+
+li{
+    list-style-image: url(../imagens/fundo03.gif);
+}
+
+hr{
+    height:3px ;
+    background-color:black ;
+    border-radius: 5px;
+}
+
+figure img{
+    filter: grayscale();
+    transition: 0.5s;
+    transform: scale(0.8);
+}
+
+figure img:hover{
+    filter: none;
+}
